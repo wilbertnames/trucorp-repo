@@ -7,13 +7,12 @@ $count = 0;
 
 while($row = $result->fetch_row())
 {
-echo "<tr>";
 for($i = 0;$i < $result->field_count;$i++){
 	
 $count++;
 	}
 }
-echo "Jumlah ada ada ".$count;
+echo "Jumlah data ada ".$count;
 
 $conn->close();
 
